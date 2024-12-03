@@ -48,7 +48,7 @@ function App() {
         // Send the frame to the backend
         axios
           .post(
-            "flaskALB-1182653789.us-east-1.elb.amazonaws.com/process_frame",
+            "https://neunetkats.me/process_frame",
             { frame },
             {
               headers: { "Content-Type": "application/json" },
