@@ -48,7 +48,7 @@ function App() {
         // Send the frame to the backend
         axios
           .post(
-            "http://127.0.0.1:5000/process_frame",
+            "http://3.235.251.150:5000/process_frame",
             { frame },
             {
               headers: { "Content-Type": "application/json" },
