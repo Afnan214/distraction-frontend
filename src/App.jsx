@@ -48,7 +48,7 @@ function App() {
         // Send the frame to the backend
         axios
           .post(
-            "http://3.235.251.150:5000/process_frame",
+            "flaskALB-1182653789.us-east-1.elb.amazonaws.com/process_frame",
             { frame },
             {
               headers: { "Content-Type": "application/json" },
