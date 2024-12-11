@@ -48,7 +48,7 @@ function App() {
         // Send the frame to the backend
         axios
           .post(
-            "https://neunetkats.me/process_frame",
+            "http://127.0.0.1:5000/process_frame",
             { frame },
             {
               headers: { "Content-Type": "application/json" },
